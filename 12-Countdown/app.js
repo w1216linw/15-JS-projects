@@ -33,7 +33,7 @@ const mins = futureDate.getMinutes();
 const day = futureDate.getDate();
 const month = months[futureDate.getMonth()];
 const weekday = weekdays[futureDate.getDay()];
-giveaway.textContent = `giveaway ends on ${weekday}, ${month} ${day} ${year} ${hours}:${mins}`
+giveaway.textContent = `giveaway ends on ${weekday}, ${month} ${day} ${year} ${format(hours)}:${format(mins)}`
 
 //future time in ms
 const futureTime = futureDate.getTime();
