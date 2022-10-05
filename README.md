@@ -1,1 +1,1 @@
-# 15-JS-projects from Vanilla JavaScript Course
+# 15-projects using vanilla js
